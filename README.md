@@ -4,7 +4,7 @@ A Streamlit app that lets research teams **upload long scientific PDFs and ask q
 Answers come from Retrieval-Augmented Generation (RAG): they are grounded in the papers and cite the file and page they came from.
 The app also extracts each paper's **metadata and summary**, finds **trends across the collection**, and **evaluates** RAG against a plain LLM with an LLM-as-a-judge.
 
-It started from the *Generative AI for Business Applications – RAG (Week 3)* case study notebook and turns it into a deployable app. See [docs/EXPLANATION.md](docs/EXPLANATION.md) for a walkthrough of the code and how each notebook step maps to it.
+See [docs/EXPLANATION.md](docs/EXPLANATION.md) for a walkthrough of the code and how each notebook step maps to it.
 
 ---
 
@@ -199,4 +199,4 @@ Every setting can be changed in the sidebar or in `.env`:
 
 ## Acknowledgements
 
-The case study comes from the Great Learning × UT Austin McCombs *Generative AI for Business Applications* programme. The papers belong to their authors.
+The case study comes from the UT Austin McCombs *Generative AI Applications* programme. The papers belong to their authors.
