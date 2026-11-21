@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest>=8.0
+
+# Optional: RAGAS metrics in scripts/evaluate_cli.py --ragas
+ragas>=0.3
+datasets>=4.0
